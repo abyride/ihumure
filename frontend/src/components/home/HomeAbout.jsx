@@ -48,7 +48,7 @@ export default function ValuesSection() {
                     cy="12"
                     rx="195"
                     ry="10"
-                    stroke="#643094"
+                    stroke="#808080"
                     strokeWidth="4"
                     fill="none"
                   />

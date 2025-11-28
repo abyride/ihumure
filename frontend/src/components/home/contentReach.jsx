@@ -32,7 +32,7 @@ export default function CharityHero() {
               >
                 <path
                   d="M5 15C30 5, 70 8, 110 10C150 12, 190 8, 215 12"
-                  stroke="#643094"
+                  stroke="#808080"
                   strokeWidth="7"
                   strokeLinecap="round"
                 />

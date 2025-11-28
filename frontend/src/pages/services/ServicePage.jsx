@@ -142,7 +142,7 @@ const ServicesPage = () => {
               <span className="relative inline-block">
                 <span className="relative z-10">Remembrance & Resistance</span>
                 <svg className="absolute -bottom-3 left-0 w-full" viewBox="0 0 500 30" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5 20 Q 250 5, 495 20" stroke="#643094" strokeWidth="8" fill="none" strokeLinecap="round" />
+                  <path d="M5 20 Q 250 5, 495 20" stroke="#808080" strokeWidth="8" fill="none" strokeLinecap="round" />
                 </svg>
               </span>
             </h2>

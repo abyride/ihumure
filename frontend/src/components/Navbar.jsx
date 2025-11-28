@@ -47,7 +47,7 @@ function NavBar() {
       <div 
         className="w-full py-2 px-6 lg:px-6"
         style={{
-          background: 'linear-gradient(135deg, #582587ff 0%, #7c3aad 100%)',
+          background: 'linear-gradient(135deg, #808080 0%, #808080 100%)',
           boxShadow: '0 2px 10px rgba(100, 48, 148, 0.2)'
         }}
       >
@@ -123,7 +123,7 @@ function NavBar() {
                       <button 
                         className="flex items-center space-x-1 text-gray-700 font-medium transition-colors duration-200 py-2"
                         style={{
-                          color: pagesDropdown ? '#643094' : undefined
+                          color: pagesDropdown ? '#808080' : undefined
                         }}
                         onMouseEnter={() => setPagesDropdown(true)}
                         onClick={() => setPagesDropdown(!pagesDropdown)}
@@ -145,7 +145,7 @@ function NavBar() {
                               href={subLink.path}
                               className="block px-4 py-2 text-gray-700 hover:bg-purple-50 transition-colors duration-200"
                               style={{
-                                ':hover': { color: '#643094' }
+                                ':hover': { color: '#808080' }
                               }}
                               onClick={() => setPagesDropdown(false)}
                             >
@@ -163,7 +163,7 @@ function NavBar() {
                       {link.name}
                       <span 
                         className="absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full transition-all duration-300"
-                        style={{ backgroundColor: '#643094' }}
+                        style={{ backgroundColor: '#808080' }}
                       ></span>
                     </a>
                   )}
@@ -177,7 +177,7 @@ function NavBar() {
                 href="/donate"
                 className="px-6 py-3 text-white font-semibold rounded-full transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
                 style={{
-                  background: 'linear-gradient(135deg, #643094 0%, #7c3aad 100%)',
+                  background: 'linear-gradient(135deg, #808080 0%, #808080 100%)',
                 }}
               >
                 Donate Now
@@ -189,7 +189,7 @@ function NavBar() {
               onClick={() => setMenuOpen(!menuOpen)}
               className="lg:hidden p-2 text-gray-700 transition-colors"
               style={{
-                color: menuOpen ? '#643094' : undefined
+                color: menuOpen ? '#808080' : undefined
               }}
             >
               {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -248,7 +248,7 @@ function NavBar() {
                     href="/donate"
                     className="block w-full text-center px-6 py-3 text-white font-semibold rounded-full transition-all duration-300 shadow-lg"
                     style={{
-                      background: 'linear-gradient(135deg, #643094 0%, #7c3aad 100%)',
+                      background: 'linear-gradient(135deg, #808080 0%, #808080 100%)',
                     }}
                     onClick={() => setMenuOpen(false)}
                   >

@@ -64,7 +64,7 @@ export default function StepForwardSection() {
                   cy="12"
                   rx="135"
                   ry="10"
-                  stroke="#643094"
+                  stroke="#808080"
                   strokeWidth="4"
                   fill="none"
                 />

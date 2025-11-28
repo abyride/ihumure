@@ -179,7 +179,7 @@ const UpsertReportPage = () => {
       denyButtonText: isEditMode ? 'Update Now' : 'Submit Now',
       cancelButtonText: 'Cancel',
       confirmButtonColor: '#3b82f6',
-      denyButtonColor: '#643094',
+      denyButtonColor: '#808080',
       cancelButtonColor: '#6b7280',
     });
 
@@ -211,7 +211,7 @@ const UpsertReportPage = () => {
           icon: 'success',
           title: 'Report Updated!',
           text: 'Your report has been successfully updated',
-          confirmButtonColor: '#643094',
+          confirmButtonColor: '#808080',
         });
       } else {
         await reportService.createReport(reportData);
@@ -219,7 +219,7 @@ const UpsertReportPage = () => {
           icon: 'success',
           title: 'Report Created!',
           text: 'Your report has been successfully saved',
-          confirmButtonColor: '#643094',
+          confirmButtonColor: '#808080',
         });
       }
       navigate('/admin/dashboard/report');

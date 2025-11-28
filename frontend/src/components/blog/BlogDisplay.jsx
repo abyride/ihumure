@@ -31,8 +31,8 @@ export default function JourneysSection() {
         {/* Header Section */}
         <div className="text-center mb-16 md:mb-10">
           <div className="inline-flex items-center gap-2 bg-purple-100 px-4 py-2 rounded-full mb-6">
-            <Sparkles className="w-4 h-4" style={{ color: '#643094' }} />
-            <span className="text-sm font-semibold uppercase tracking-wider" style={{ color: '#643094' }}>
+            <Sparkles className="w-4 h-4" style={{ color: '#808080' }} />
+            <span className="text-sm font-semibold uppercase tracking-wider" style={{ color: '#808080' }}>
               Our Impact Stories
             </span>
           </div>
@@ -43,7 +43,7 @@ export default function JourneysSection() {
               <span className="relative z-10">Journeys</span>
               <span 
                 className="absolute inset-x-0 bottom-2 h-4 -z-0"
-                style={{ backgroundColor: '#643094', opacity: 0.2 }}
+                style={{ backgroundColor: '#808080', opacity: 0.2 }}
               ></span>
             </span>
             <br />
@@ -122,14 +122,14 @@ export default function JourneysSection() {
                   <button 
                     className="inline-flex items-center gap-2 font-semibold text-gray-800 group-hover:gap-4 transition-all duration-300"
                     style={{
-                      color: '#643094'
+                      color: '#808080'
                     }}
                   >
                     <span className="relative">
                       Read More
                       <span 
                         className="absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full transition-all duration-300"
-                        style={{ backgroundColor: '#643094' }}
+                        style={{ backgroundColor: '#808080' }}
                       ></span>
                     </span>
                     <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
@@ -140,7 +140,7 @@ export default function JourneysSection() {
               {/* Decorative Corner Element */}
               <div 
                 className="absolute bottom-0 right-0 w-24 h-24 rounded-tl-full opacity-5 group-hover:opacity-10 transition-opacity duration-300"
-                style={{ backgroundColor: '#643094' }}
+                style={{ backgroundColor: '#808080' }}
               ></div>
             </div>
           ))}
@@ -151,7 +151,7 @@ export default function JourneysSection() {
           <button 
             className="inline-flex items-center gap-3 px-8 py-4 rounded-full text-white font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
             style={{
-              background: 'linear-gradient(135deg, #643094 0%, #7c3aad 100%)'
+              background: 'linear-gradient(135deg, #808080 0%, #808080 100%)'
             }}
           >
             <span>View All Journeys</span>

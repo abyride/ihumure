@@ -22,7 +22,7 @@ export default function ActivistLandingPage() {
                 >
                   <path
                     d="M5 15C30 5, 70 8, 100 10C130 12, 170 8, 195 12"
-                    stroke="#643094"
+                    stroke="#808080"
                     strokeWidth="6"
                     strokeLinecap="round"
                     fill="none"
@@ -124,7 +124,7 @@ export default function ActivistLandingPage() {
               >
                 <stat.icon 
                   className="w-8 h-8" 
-                  style={{ color: '#643094' }}
+                  style={{ color: '#808080' }}
                 />
               </div>
               <div className="text-3xl font-bold text-gray-800">{stat.value}</div>

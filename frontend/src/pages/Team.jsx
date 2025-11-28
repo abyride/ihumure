@@ -51,7 +51,7 @@ export default function TeamPage({comp=false}) {
                   cy="12"
                   rx="135"
                   ry="10"
-                  stroke="#643094"
+                  stroke="#808080"
                   strokeWidth="4"
                   fill="none"
                 />
@@ -90,7 +90,7 @@ export default function TeamPage({comp=false}) {
                       cy="12"
                       rx="95"
                       ry="10"
-                      stroke="#643094"
+                      stroke="#808080"
                       strokeWidth="4"
                       fill="none"
                     />

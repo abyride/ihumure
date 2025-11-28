@@ -79,7 +79,7 @@ const ValuesPage = () => {
                       >
                         <Icon 
                           className="w-7 h-7 transition-colors" 
-                          style={{ color: '#643094' }}
+                          style={{ color: '#808080' }}
                         />
                       </div>
                       <div>
@@ -112,7 +112,7 @@ const ValuesPage = () => {
                 <div 
                   className="absolute top-4 left-4 w-14 h-14 backdrop-blur-sm rounded-xl flex items-center justify-center border border-white/20"
                   style={{
-                    backgroundColor: '#643094',
+                    backgroundColor: '#808080',
                     boxShadow: '0 10px 25px rgba(100, 48, 148, 0.3)'
                   }}
                 >

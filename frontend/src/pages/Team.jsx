@@ -3,29 +3,265 @@ import { Linkedin, Instagram } from 'lucide-react';
 import Header from '../components/header';
 
 export default function TeamPage({comp=false}) {
-  const teamMembers = [
-    {
-      name: 'May Johnson',
-      role: 'Executive Director',
-      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&h=600&fit=crop',
-      linkedin: '#',
-      instagram: '#'
-    },
-    {
-      name: 'Daniel Kim',
-      role: 'Campaign Director',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=600&fit=crop',
-      linkedin: '#',
-      instagram: '#'
-    },
-    {
-      name: 'Sofia Alvarez',
-      role: 'Program Manager',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&h=600&fit=crop',
-      linkedin: '#',
-      instagram: '#'
-    }
-  ];
+const teamMembers = [
+  {
+    name: "Bisore Ngemanyi Albert",
+    role: "President",
+    image: "https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+  {
+    name: "Elie Muzungu",
+    role: "Vice President",
+    image: "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+
+  // Communication & Media
+  {
+    name: "Bertin Shambo",
+    role: "Communication & Media Dept.",
+    image: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+  {
+    name: "Pascal Gatabazi Gashema",
+    role: "Communication & Media Dept.",
+    image: "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+
+  // Mobilization
+  {
+    name: "Jule",
+    role: "Mobilization & Community Engagement",
+    image: "https://images.unsplash.com/photo-1552058544-f2b08422138a?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+  {
+    name: "Sakindi",
+    role: "VMC",
+    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+
+  // Conflict Resolution
+  {
+    name: "Claude M. Ganza",
+    role: "Conflict Resolution Dept.",
+    image: "https://images.unsplash.com/photo-1552058544-f2b08422138a?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+  {
+    name: "Ernest Kalisa Nino",
+    role: "Conflict Resolution Dept.",
+    image: "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+
+  // Social & Gender
+  {
+    name: "Mama Noeline",
+    role: "Social & Gender Dept.",
+    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+  {
+    name: "Karemera Eric Richart",
+    role: "VSG",
+    image: "https://images.unsplash.com/photo-1509869175650-a1d97972541a?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+
+  // Youth Engagement
+  {
+    name: "Mutuyemungu Kumwami Pacifique",
+    role: "Youth Engagement Dept.",
+    image: "https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+  {
+    name: "Niyomugabo Gad",
+    role: "Youth Engagement Dept.",
+    image: "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+  {
+    name: "Makoma",
+    role: "Youth Engagement Dept.",
+    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+  {
+    name: "Modeste Mugwiza",
+    role: "Youth Engagement Dept.",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+
+  // Art & Entertainment
+  {
+    name: "Elisabeth Kampire (Dinah)",
+    role: "Art & Entertainment Dept.",
+    image: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+  {
+    name: "Janvier Masisi",
+    role: "Art & Entertainment Dept.",
+    image: "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+  {
+    name: "Jeannette Umwiza",
+    role: "Art & Entertainment Dept.",
+    image: "https://images.unsplash.com/photo-1552058544-f2b08422138a?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+  {
+    name: "Rodrigue Ndayishimye",
+    role: "Art & Entertainment Dept.",
+    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+
+  // Orphans & Widows
+  {
+    name: "Mama Shyaka",
+    role: "Orphan & Widows Affairs",
+    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+  {
+    name: "Niragire Amitier",
+    role: "VOW",
+    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+
+  // Secretary Office
+  {
+    name: "Emmanue Sebagishal",
+    role: "General Secretary",
+    image: "https://images.unsplash.com/photo-1552058544-f2b08422138a?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+
+  // Legal
+  {
+    name: "Fabrice Rushema Muzungu",
+    role: "Legal Dept.",
+    image: "https://images.unsplash.com/photo-1509869175650-a1d97972541a?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+
+  // Strategic Planning
+  {
+    name: "Dr. Paul Muzawa",
+    role: "Strategic Planning Team",
+    image: "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+  {
+    name: "Innocent",
+    role: "Strategic Planning Team",
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+
+  // MEA
+  {
+    name: "Muhirwa Janvier",
+    role: "MEA",
+    image: "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+
+  // Documentation
+  {
+    name: "Claude Mukiza",
+    role: "Documentation & Archive Dept.",
+    image: "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+
+  // Fundraising
+  {
+    name: "Mahirwe",
+    role: "Fundraising Dept.",
+    image: "https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+  {
+    name: "Yvonne",
+    role: "Fundraising Dept.",
+    image: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+
+  // Advisors Board
+  {
+    name: "Eng. Eric Kamanzi",
+    role: "Advisory Board Chairperson",
+    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+  {
+    name: "Umulisa Sano Liliane",
+    role: "Advisory Board Vice Chair",
+    image: "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+
+  // Chapters
+  {
+    name: "Fabien",
+    role: "Chapters Director",
+    image: "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=500&h=600&fit=crop",
+    linkedin: "#",
+    instagram: "#",
+  },
+
+  // Specific Chapters
+  { name: "USA Chapter", role: "Chapter", image: "#", linkedin: "#", instagram: "#" },
+  { name: "Canada Chapter", role: "Chapter", image: "#", linkedin: "#", instagram: "#" },
+  { name: "EU Chapter", role: "Chapter", image: "#", linkedin: "#", instagram: "#" },
+  { name: "DRC Chapter", role: "Chapter", image: "#", linkedin: "#", instagram: "#" },
+  { name: "Kenya Chapter", role: "Chapter", image: "#", linkedin: "#", instagram: "#" },
+  { name: "Rwanda Chapter (Micomyiza)", role: "Chapter", image: "#", linkedin: "#", instagram: "#" },
+  { name: "Uganda Chapter", role: "Chapter", image: "#", linkedin: "#", instagram: "#" },
+];
+
 
   return (
     <div className="min-h-screen bg-white">

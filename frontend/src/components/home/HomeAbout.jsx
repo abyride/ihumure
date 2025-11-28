@@ -1,6 +1,7 @@
 import React from 'react';
 import { Users, Eye, HandHeart, Scale, ScrollText, HeartHandshake } from 'lucide-react';
 
+
 export default function ValuesSection() {
   const values = [
     {

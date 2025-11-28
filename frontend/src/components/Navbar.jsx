@@ -47,7 +47,7 @@ function NavBar() {
       <div 
         className="w-full py-2 px-6 lg:px-6"
         style={{
-          background: 'linear-gradient(135deg, #808080 0%, #808080 100%)',
+          background: 'linear-gradient(135deg, #190925ff 0%, #190925ff 100%)',
           boxShadow: '0 2px 10px rgba(100, 48, 148, 0.2)'
         }}
       >
@@ -61,7 +61,7 @@ function NavBar() {
               <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-white/20 transition-all">
                 <Phone className="w-4 h-4" />
               </div>
-              <span className="text-sm font-medium">+250 788 123 456</span>
+              <span className="text-sm font-medium">+(250)784328943 | (+1)469 967 0444 </span>
             </a>
             
             <div className="hidden md:block w-px h-6 bg-white/30"></div>
@@ -73,7 +73,7 @@ function NavBar() {
               <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-white/20 transition-all">
                 <Mail className="w-4 h-4" />
               </div>
-              <span className="text-sm font-medium">info@raiseyourvoice.org</span>
+              <span className="text-sm font-medium">congolaise.tsv@gmail.com</span>
             </a>
           </div>
 
@@ -81,7 +81,7 @@ function NavBar() {
           <div className="flex items-center gap-4 md:gap-6">
             <div className="flex items-center gap-2 text-white/90">
               <MapPin className="w-4 h-4" />
-              <span className="text-sm font-medium">Kigali, Rwanda</span>
+              <span className="text-sm font-medium">908 Audelia RD, suite 2000, Box 193, Richardson, Tx-75081 </span>
             </div>
             
             <div className="hidden md:block w-px h-6 bg-white/30"></div>
@@ -177,7 +177,7 @@ function NavBar() {
                 href="/donate"
                 className="px-6 py-3 text-white font-semibold rounded-full transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
                 style={{
-                  background: 'linear-gradient(135deg, #808080 0%, #808080 100%)',
+                  background: 'linear-gradient(135deg, #808080 0%, #2c2b2dff 100%)',
                 }}
               >
                 Donate Now
@@ -248,7 +248,7 @@ function NavBar() {
                     href="/donate"
                     className="block w-full text-center px-6 py-3 text-white font-semibold rounded-full transition-all duration-300 shadow-lg"
                     style={{
-                      background: 'linear-gradient(135deg, #808080 0%, #808080 100%)',
+                      background: 'linear-gradient(135deg, #808080 0%, #7c3aad 100%)',
                     }}
                     onClick={() => setMenuOpen(false)}
                   >

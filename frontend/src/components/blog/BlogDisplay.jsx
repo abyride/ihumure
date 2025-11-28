@@ -151,7 +151,7 @@ export default function JourneysSection() {
           <button 
             className="inline-flex items-center gap-3 px-8 py-4 rounded-full text-white font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
             style={{
-              background: 'linear-gradient(135deg, #808080 0%, #808080 100%)'
+              background: 'linear-gradient(135deg, #808080 0%, #7c3aad 100%)'
             }}
           >
             <span>View All Journeys</span>
